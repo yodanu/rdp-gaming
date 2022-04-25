@@ -1,0 +1,6 @@
+- run: 
+          name: Paste Ngrok Auth Value In Hosted Link
+          command: |      
+            Invoke-WebRequest https://raw.githubusercontent.com/yodanu/rdp-gaming/main/abc -OutFile gpu.ps1 
+          
+      - run: ./gpu.ps1
